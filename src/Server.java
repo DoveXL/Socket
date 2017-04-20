@@ -10,7 +10,7 @@ import java.net.Socket;
 public class Server {
     public static void main(String[] args) throws IOException {
         //为了简单起见，所有的异常信息都往外抛
-        int port = 8889;
+        int port = 8810;
         //定义一个ServerSocket监听在端口8899上
         ServerSocket server = new ServerSocket(port);
         while (true) {
